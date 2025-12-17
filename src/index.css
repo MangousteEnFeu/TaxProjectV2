@@ -1,0 +1,57 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    /* Updated Background to Dark Neutral (Charcoal/Gray) */
+    --background: 220 14% 10%; /* Dark Charcoal */
+    --foreground: 210 40% 98%;
+    
+    /* Updated Card background to be slightly lighter than background */
+    --card: 220 13% 14%; 
+    --card-foreground: 210 40% 98%;
+    
+    --popover: 220 13% 14%;
+    --popover-foreground: 210 40% 98%;
+    
+    /* Vaud Green #007A3D */
+    --primary: 138 100% 24%; 
+    --primary-foreground: 210 40% 98%;
+    
+    --secondary: 215 15% 18%; /* Dark gray for secondary elements */
+    --secondary-foreground: 210 40% 98%;
+    
+    --muted: 215 15% 18%;
+    --muted-foreground: 215 20% 65%;
+    
+    --accent: 138 100% 24%;
+    --accent-foreground: 210 40% 98%;
+    
+    --destructive: 0 63% 31%;
+    --destructive-foreground: 210 40% 98%;
+    
+    --border: 215 15% 22%;
+    --input: 215 15% 22%;
+    
+    --ring: 138 100% 24%;
+    --radius: 0.5rem;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}

@@ -1,0 +1,3 @@
+## Pages
+- [Untitled Page](/auth): Connectez-vous à votre compte TaxVaud pour gérer vos déclarations d
+- [Untitled Page](/dashboard): Gérez vos déclarations d
